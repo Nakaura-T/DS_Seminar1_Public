@@ -13,6 +13,8 @@ print(df.head())
 * setosa vs versicolor
 * 散布図を描く
 * train/test split をする
-* ロジスティック回帰を使う
+* ロジスティック回帰, SVM, RandomForestを使う
 * accuracy を見る
+* ROC解析と表示を行う
+* グラフを保存する
 
