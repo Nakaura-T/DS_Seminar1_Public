@@ -22,3 +22,10 @@ https://archive.ics.uci.edu/static/public/850/raisin.zip
 *レーズン2種類を、面積・周囲長・長軸長・短軸長などの形態特徴量で分類します。UCI公式では、Kecimen と Besni の2種類、合計900個、7つの形態特徴量を持つデータ
 *ダウンロードしたデータはエクセルをZip化したもの、エクセルのファイルを読み込む所からはじめてください。
 
+/data/Raisin_Dataset.xlsxの1枚目のシートを読み込んで、Classの分類について 
+* train/test split をする 
+*標準化する 
+*ロジスティック回帰, SVM, RandomForestを使って、ハイパーパラメータチューニングを行う。 
+*各種モデルの accuracyその他の性能を見る
+*各種モデルのROC解析と表示を行う 
+*グラフを保存する
