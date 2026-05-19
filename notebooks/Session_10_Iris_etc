@@ -1,0 +1,18 @@
+1. Iris 2クラス
+
+* データを読み込む
+
+```
+from sklearn.datasets import load_iris
+iris = load_iris(as_frame=True)
+df = iris.frame
+print(df.head())
+```
+
+
+* setosa vs versicolor
+* 散布図を描く
+* train/test split をする
+* ロジスティック回帰を使う
+* accuracy を見る
+
